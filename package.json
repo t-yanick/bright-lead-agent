@@ -1,0 +1,18 @@
+{
+  "name": "bright-lead-agent",
+  "version": "0.1.0",
+  "description": "Bilingual (FR/EN) AI lead-response agent for a Montreal cleaning business. v1: manual, human-in-the-loop.",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js",
+    "lead:en": "node src/index.js samples/lead-en.txt",
+    "lead:fr": "node src/index.js samples/lead-fr.txt"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5"
+  },
+  "license": "MIT"
+}
